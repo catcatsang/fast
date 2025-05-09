@@ -11,6 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://bookjeogseoul.site",
+    "http://bookjeog.site",
 ]
 
 app.add_middleware(
