@@ -10,7 +10,7 @@ from typing import List
 app = FastAPI()
 
 origins = [
-    "http://43.201.248.187:10000",
+    "http://bookjeogseoul.site",
 ]
 
 app.add_middleware(
